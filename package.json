@@ -1,0 +1,23 @@
+{
+  "name": "playwright-project",
+  "version": "1.0.0",
+  "description": "Autmated Software Testing with Puppeeter",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests"
+  },
+  "keywords": [
+    "playwright",
+    "Mocha",
+    "Chai"
+  ],
+  "author": "GorN",
+  "license": "ISC",
+ 
+  "dependencies": {
+    "chai": "^4.3.0",
+    "mocha": "^8.3.0",
+    "playwright": "^1.8.1",
+    "prettier": "^2.2.1"
+  }
+}
